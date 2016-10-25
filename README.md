@@ -23,7 +23,7 @@ Study sessions can be created by users using the form.
 ####Study Session Page
 
 Lists all of the upcoming study sessions.
-<img class="ui fluid centered image" src="/doc/study-sessions.png">
+<img class="ui fluid centered image" src="/doc/study-session.png">
 
 
 ####Study Session Details Page
