@@ -5,7 +5,7 @@
 ####Public Landing Page
 
 This page displays information about Study Buddy for people who are not signed in.
-<img class="ui fluid centered image" src="/doc/public-landing-page.png">
+<img class="ui fluid centered image" src="/doc/public-landing.png">
 
 
 ####Login Page
@@ -20,7 +20,13 @@ Study sessions can be created by users using the form.
 <img class="ui fluid centered image" src="/doc/create-study-session.png">
 
 
-####Study Session Details PAge
+####Study Session Page
+
+Lists all of the upcoming study sessions.
+<img class="ui fluid centered image" src="/doc/study-sessions.png">
+
+
+####Study Session Details Page
 
 This page displays more information about the study session and allows uesrs to join the study session.
 <img class="ui fluid centered image" src="/doc/study-session-details.png">
