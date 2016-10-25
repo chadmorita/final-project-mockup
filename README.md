@@ -28,6 +28,6 @@ This page displays more information about the study session and allows uesrs to 
 
 ####Profile Page
 
-Users can navigate to the profiles of people attending the study sessions to learn more about each other. 
+Users can navigate to the profiles of people attending the study sessions to learn more about each other. Courses are color coded to reflect the individual's confidence of understanding of the subject matter (Green: well understood, Yellow: some gaps in understanding, Red: limited knowledge). 
 
 <img class="ui fluid centered image" src="/doc/profile.png">
