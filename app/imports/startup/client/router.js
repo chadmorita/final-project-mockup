@@ -1,31 +1,68 @@
 import { FlowRouter } from 'meteor/kadira:flow-router';
 import { BlazeLayout } from 'meteor/kadira:blaze-layout';
 
+// Used for default home page
 FlowRouter.route('/', {
-  name: 'Home_Page',
+  name: 'Public_Landing_Page',
   action() {
-    BlazeLayout.render('App_Body', { main: 'Home_Page' });
+    BlazeLayout.render('App_Body', { main: 'Public_Landing_Page' });
   },
 });
 
-FlowRouter.route('/list', {
-  name: 'List_Stuff_Page',
+FlowRouter.route('/login', {
+  name: 'Login_Page',
   action() {
-    BlazeLayout.render('App_Body', { main: 'List_Stuff_Page' });
+    BlazeLayout.render('App_Body', { main: 'Login_Page' });
   },
 });
 
-FlowRouter.route('/add', {
-  name: 'Add_Stuff_Page',
+FlowRouter.route('/user-home', {
+  name: 'User_Home_Page',
   action() {
-    BlazeLayout.render('App_Body', { main: 'Add_Stuff_Page' });
+    BlazeLayout.render('App_Body', { main: 'User_Home_Page' });
   },
 });
 
-FlowRouter.route('/stuff/:_id', {
-  name: 'Edit_Stuff_Page',
+FlowRouter.route('/admin-home', {
+  name: 'Admin_Home_Page',
   action() {
-    BlazeLayout.render('App_Body', { main: 'Edit_Stuff_Page' });
+    BlazeLayout.render('App_Body', { main: 'Admin_Home_Page' });
+  },
+});
+
+FlowRouter.route('/user-profile', {
+  name: 'User_Profile_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'User_Profile_Page' });
+  },
+});
+
+FlowRouter.route('/user-profile/:_id', {
+  name: 'User_Profile_Detail_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'User_Profile_Detail_Page' });
+  },
+});
+
+FlowRouter.route('/create-study-session', {
+  name: 'Create_Study_Session_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Create_Study_Session_Page' });
+  },
+});
+
+FlowRouter.route('/study-session', {
+  name: 'Study_Session_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Study_Session_Page' });
+  },
+});
+
+// Use to access detailed study session page.
+FlowRouter.route('/study-session/:_id', {
+  name: 'Study_Session_Detail_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Study_Session_Detail_Page' });
   },
 });
 
