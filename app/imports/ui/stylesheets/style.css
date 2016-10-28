@@ -16,3 +16,7 @@ body {
 .ui.raised.card.profile {
   padding: 10px 10px 10px 10px;
 }
+
+a.login-close-text {
+  color: black !important;
+}
