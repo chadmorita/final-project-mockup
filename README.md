@@ -17,7 +17,7 @@ This page is used for logging in.
 ####Create Study Session Page
 
 Study sessions can be created by users using the form.
-<img class="ui fluid centered image" src="/doc/create-study-session.png">
+<img class="ui fluid centered image" src="/doc/create-study-session-2.png">
 
 
 ####Study Session Page
